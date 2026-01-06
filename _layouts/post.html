@@ -2,15 +2,17 @@
 layout: default
 ---
 
-<article>
-  <h1>{{ page.title }}</h1>
-  <div class="post-meta">
-    {{ page.date | date: "%d %B %Y" }}
-    {% if page.categories and page.categories.size > 0 %}
-      · {{ page.categories | join: ", " }}
-    {% endif %}
-  </div>
+<div class="prose">
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="meta">
+      {{ page.date | date: "%d %B %Y" }}
+      {% if page.categories and page.categories.size > 0 %}
+        · {{ page.categories | join: ", " }}
+      {% endif %}
+    </div>
 
-  {{ content }}
-</article>
+    {{ content }}
+  </article>
+</div>
 
