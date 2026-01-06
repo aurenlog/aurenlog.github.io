@@ -1,0 +1,4 @@
+title: "aurenlog"
+description: "Notas y artículos"
+markdown: kramdown
+permalink: /:categories/:title/
