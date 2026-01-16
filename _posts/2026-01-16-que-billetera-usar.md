@@ -16,11 +16,14 @@ La wallet es, en realidad, **donde se guardan las claves que te permiten acceder
 Entender esto cambia por completo cómo pensar sobre seguridad y custodia.
 ### Custodial vs no-custodial (el concepto que lo cambia todo)
 En Bitcoin, la diferencia fundamental no es qué app usas, sino **quién controla las claves privadas**. Aquí hay dos modelos muy claros.
-2. Custodial.
+1. Custodial.
 	Las claves no las tienes tu, las tiene un Exchange (Binance, Kraken), que guarda los bitcoins por tí. Es muy cómodo, solo tienes que recordar el usuario y la contraseña que usas para ingresar al exchange (y preferiblemente una clave de segundo factor de seguridad (2FA)). Funciona como las aplicaciones de los bancos a los que todos estamos acostumbrados. Pero tiene una consecuencia importante: si no tienes las claves, **no tienes control total sobre tus bitcoin**. El exchange puede congelar fondos, limitar retiradas o, en casos extremos, desaparecer.
-3. Non-Custodial:
-	Tu controlas las claves y además tu eres responsable de las mismas y por lo tanto de todos los bitcoins y nadie puede congelar, censurar o recuperar tus fondos por ti, pero tampoco nadie puede ayudarte a recuperar el acceso si pierdes tus claves. La autocustodia no es gratis: **se paga con responsabilidad.**
-	Este es el modelo al que apunta Bitcoin, pero no tiene por qué hacerse de golpe.
+
+2. Non-Custodial:
+	Tu controlas las claves y además tu eres responsable de las mismas y por lo tanto de todos los bitcoins y nadie puede congelar, censurar o recuperar tus fondos por ti, pero tampoco nadie puede ayudarte a recuperar el acceso si pierdes tus claves. 
+	
+> La autocustodia no es gratis: **se paga con responsabilidad.**
+> Este es el modelo al que apunta Bitcoin, pero no tiene por qué hacerse de golpe.
 
 ### Wallets móviles: empezar simple (Nunchuk)
 Como primer paso hacia la autocustodia, una wallet móvil puede ser una muy buena opción.  
@@ -37,7 +40,7 @@ Opcionalmente, puedes añadir una **passphrase** (a veces llamada “palabra 25�
 **Esas palabras son las claves de acceso a tus bitcoin**, Por eso, no deben compartirse nunca, no deben almacenarse en formato digital (foto, documento de texto tipo word, excel), no deben estar accesibles a simple vista.   
 Al principio, anotarlas en una libreta puede ser suficiente. Más adelante, podrás explorar estrategias más avanzadas para mejorar privacidad y resistencia.
 
-Una wallet móvil no es el destino final, pero sí **un muy buen primer paso**.
+> Una wallet móvil no es el destino final, pero sí **un muy buen primer paso**.
 
 ### Hardware wallets: cuando el importe ya importa (Krux)
 Cuando la cantidad de bitcoin que custodies empiece a ser significativa —por ejemplo, el equivalente a una o dos nóminas/sueldos— probablemente te plantees elevar el nivel de seguridad. Aquí entran en juego las **hardware wallets**.
