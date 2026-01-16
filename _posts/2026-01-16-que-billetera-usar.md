@@ -11,7 +11,7 @@ Y aquí aparece la primera confusión importante. Una billetera Bitcoin **no es 
 están registrados en la cadena de bloques (blockchain).
 La wallet es, en realidad, **donde se guardan las claves que te permiten acceder a ellos**.
 
-> **Una wallet no es donde están tus bitcoin, es cómo accedes a ellos.**
+**Una wallet no es donde están tus bitcoin, es cómo accedes a ellos.**
 
 Entender esto cambia por completo cómo pensar sobre seguridad y custodia.
 ### Custodial vs no-custodial (el concepto que lo cambia todo)
@@ -30,13 +30,15 @@ Una wallet móvil:
 - tiene poca fricción
 - permite aprender los conceptos básicos
 - es adecuada para cantidades pequeñas o de aprendizaje
+
 Nunchuk, además, pone mucho énfasis en las buenas prácticas y no intenta “ocultar” lo que está pasando por debajo, algo que agradecí desde el principio.
 Al crear una wallet, la aplicación te mostrará una serie de palabras (normalmente 24), conocidas como **frase semilla**. Estas palabras **no son aleatorias en el sentido cotidiano**, sino el resultado de un proceso matemático que garantiza un nivel de seguridad extremadamente alto.
 Opcionalmente, puedes añadir una **passphrase** (a veces llamada “palabra 25”), que añade una capa extra de seguridad y también de complejidad.
 **Esas palabras son las claves de acceso a tus bitcoin**, Por eso, no deben compartirse nunca, no deben almacenarse en formato digital (foto, documento de texto tipo word, excel), no deben estar accesibles a simple vista.   
 Al principio, anotarlas en una libreta puede ser suficiente. Más adelante, podrás explorar estrategias más avanzadas para mejorar privacidad y resistencia.
 
-> Una wallet móvil no es el destino final, pero sí **un muy buen primer paso**.
+Una wallet móvil no es el destino final, pero sí **un muy buen primer paso**.
+
 ### Hardware wallets: cuando el importe ya importa (Krux)
 Cuando la cantidad de bitcoin que custodies empiece a ser significativa —por ejemplo, el equivalente a una o dos nóminas/sueldos— probablemente te plantees elevar el nivel de seguridad. Aquí entran en juego las **hardware wallets**.
 Aunque el nombre lleve a confusión, no son realmente “billeteras”, sino **dispositivos dedicados a generar y custodiar claves**.
