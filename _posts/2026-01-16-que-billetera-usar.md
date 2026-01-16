@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Qué billetera usar al empezar en Bitcoin (y por qué)"
+date: 2026-01-16
+categories: [bitcoin, principiantes]
+excerpt: "Una guía práctica para entender qué es una wallet Bitcoin, la diferencia entre custodia y autocustodia, y cómo elegir una billetera adecuada al empezar."
+---
+
 Al poco tiempo de empezar a acumular sats (fracciones de bitcoin), es normal preguntarse si no necesitas una wallet, es decir, una billetera donde “guardar” tus bitcoin.  
 Y aquí aparece la primera confusión importante. Una billetera Bitcoin **no es donde se guardan tus monedas**, porque tus bitcoin no están dentro de ninguna aplicación ni dispositivo:  
 están registrados en la cadena de bloques (blockchain).

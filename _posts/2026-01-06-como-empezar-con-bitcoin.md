@@ -3,8 +3,7 @@ layout: post
 title: "Cómo empezar con Bitcoin (un camino simple para no perderse)"
 date: 2026-01-06
 categories: [bitcoin, principiantes]
-excerpt: "Un recorrido sencillo para empezar con Bitcoin sin abrumarse: identidad digital, compra, custodia y entorno 
-de trabajo."
+excerpt: "Un recorrido sencillo para empezar con Bitcoin sin abrumarse: identidad digital, compra, custodia y entorno de trabajo."
 ---
 
 Esta no pretende ser una guía exhaustiva. Para eso ya hay gente mucho más experta que yo, con materiales mucho más completos (por ejemplo: [Lunaticoin](https://lunaticoin.blog/), Darthcoin, Arkad, Albercoin).
