@@ -11,8 +11,11 @@ Y aquí aparece la primera confusión importante. Una billetera Bitcoin **no es 
 están registrados en la cadena de bloques (blockchain).
 La wallet es, en realidad, **donde se guardan las claves que te permiten acceder a ellos**.
 
-> **Una wallet no es donde están tus bitcoin, es cómo accedes a ellos.**
-> Entender esto cambia por completo cómo pensar sobre seguridad y custodia.
+<div class="callout">
+**Una wallet no es donde están tus bitcoin, es cómo accedes a ellos.**
+</div>
+
+Entender esto cambia por completo cómo pensar sobre seguridad y custodia.
 
 ### Custodial vs no-custodial (el concepto que lo cambia todo)
 En Bitcoin, la diferencia fundamental no es qué app usas, sino **quién controla las claves privadas**. Aquí hay dos modelos muy claros.
@@ -60,6 +63,7 @@ No es una solución “plug and play” como otras, pero ofrece:
 - una excelente relación entre seguridad y transparencia
 
 Eso sí: **no es mejor por defecto**, es mejor cuando ya sabes qué estás haciendo.
+
 ### El camino razonable
 Un recorrido posible —no el único— podría ser:
 - Exchange → para comprar

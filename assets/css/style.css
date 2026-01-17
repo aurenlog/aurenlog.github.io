@@ -9,7 +9,9 @@
   --border: rgba(255,255,255,.08);
 
   --link: #7aa7ff;
-  --accent: #5b8cff;
+  --accent: #8fa8ff; /* azul subtítulos */
+  --accent-amber: #f2c94c; /* negritas */
+  --accent-red: #eb5757;   /* avisos */
 
   --radius: 16px;
   --shadow: 0 10px 30px rgba(0,0,0,.35);
@@ -24,9 +26,10 @@ body{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Arial, sans-serif;
   line-height: 1.65;
   color: var(--text);
-  background: radial-gradient(1200px 600px at 50% -100px, rgba(91,140,255,.22), transparent 60%),
-              radial-gradient(900px 500px at 85% 10%, rgba(122,167,255,.12), transparent 60%),
-              var(--bg);
+  background:
+    radial-gradient(1200px 700px at 50% -120px, rgba(143,168,255,.12), transparent 62%),
+    radial-gradient(900px 520px at 85% 8%, rgba(143,168,255,.07), transparent 60%),
+    var(--bg);
 }
 
 a{ color: var(--link); text-decoration: none; }
@@ -112,6 +115,16 @@ main h1{
   font-size: 44px;
 }
 
+/* Subtítulos (###): jerarquía + separación */
+h3{
+  margin-top: 42px;
+  margin-bottom: 16px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+  color: var(--accent);
+  font-weight: 650;
+}
+
 p{ margin: 0 0 14px 0; color: var(--text); }
 
 ul, ol{ padding-left: 22px; }
@@ -188,3 +201,26 @@ footer{
   padding-bottom: 50px;
 }
 
+/* ===== Énfasis editorial ===== */
+strong{
+  color: var(--accent-amber);
+  font-weight: 600;
+}
+
+/* ===== Bloques destacados ===== */
+.callout{
+  border-left: 3px solid var(--accent);
+  padding: 14px 18px;
+  margin: 24px 0;
+  background: rgba(255,255,255,.03);
+  border-radius: 12px;
+  font-style: italic;
+}
+
+.notice{
+  border-left: 3px solid var(--accent-red);
+  padding: 14px 18px;
+  margin: 24px 0;
+  background: rgba(235,87,87,.06);
+  border-radius: 12px;
+}
