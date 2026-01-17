@@ -17,7 +17,7 @@ La wallet es, en realidad, **donde se guardan las claves que te permiten acceder
 
 Entender esto cambia por completo cómo pensar sobre seguridad y custodia.
 
-### Custodial vs no-custodial (el concepto que lo cambia todo)
+## Custodial vs no-custodial (el concepto que lo cambia todo)
 En Bitcoin, la diferencia fundamental no es qué app usas, sino **quién controla las claves privadas**. Aquí hay dos modelos muy claros.
 1. Custodial.
 	Las claves no las tienes tu, las tiene un Exchange (Binance, Kraken), que guarda los bitcoins por tí. Es muy cómodo, solo tienes que recordar el usuario y la contraseña que usas para ingresar al exchange (y preferiblemente una clave de segundo factor de seguridad (2FA)). Funciona como las aplicaciones de los bancos a los que todos estamos acostumbrados. Pero tiene una consecuencia importante: si no tienes las claves, **no tienes control total sobre tus bitcoin**. El exchange puede congelar fondos, limitar retiradas o, en casos extremos, desaparecer.
@@ -28,7 +28,7 @@ En Bitcoin, la diferencia fundamental no es qué app usas, sino **quién control
 > La autocustodia no es gratis: **se paga con responsabilidad.**
 > Este es el modelo al que apunta Bitcoin, pero no tiene por qué hacerse de golpe.
 
-### Wallets móviles: empezar simple (Nunchuk)
+## Wallets móviles: empezar simple (Nunchuk)
 Como primer paso hacia la autocustodia, una wallet móvil puede ser una muy buena opción.  
 En mi caso he probado **Nunchuk**, y me parece una herramienta excelente para empezar ([Guía de Lunaticoin de cómo empezar](https://lunaticoin.blog/guias-y-tutoriales/nunchuk-tu-primera-wallet-bitcoin-de-testnet)).
 Una wallet móvil:
@@ -45,7 +45,7 @@ Al principio, anotarlas en una libreta puede ser suficiente. Más adelante, podr
 
 > Una wallet móvil no es el destino final, pero sí **un muy buen primer paso**.
 
-### Hardware wallets: cuando el importe ya importa (Krux)
+## Hardware wallets: cuando el importe ya importa (Krux)
 Cuando la cantidad de bitcoin que custodies empiece a ser significativa —por ejemplo, el equivalente a una o dos nóminas/sueldos— probablemente te plantees elevar el nivel de seguridad. Aquí entran en juego las **hardware wallets**.
 Aunque el nombre lleve a confusión, no son realmente “billeteras”, sino **dispositivos dedicados a generar y custodiar claves**.
 Un dispositivo físico dedicado resuelve varios problemas:
@@ -64,7 +64,7 @@ No es una solución “plug and play” como otras, pero ofrece:
 
 Eso sí: **no es mejor por defecto**, es mejor cuando ya sabes qué estás haciendo.
 
-### El camino razonable
+## El camino razonable
 Un recorrido posible —no el único— podría ser:
 - Exchange → para comprar
 - Wallet móvil → para empezar a autocustodiar 
