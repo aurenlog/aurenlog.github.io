@@ -11,9 +11,9 @@ Y aquí aparece la primera confusión importante. Una billetera Bitcoin **no es 
 están registrados en la cadena de bloques (blockchain).
 La wallet es, en realidad, **donde se guardan las claves que te permiten acceder a ellos**.
 
-<div class="callout">
-**Una wallet no es donde están tus bitcoin, es cómo accedes a ellos.**
-</div>
+
+> **Una wallet no es donde están tus bitcoin, es cómo accedes a ellos.**
+
 
 Entender esto cambia por completo cómo pensar sobre seguridad y custodia.
 
