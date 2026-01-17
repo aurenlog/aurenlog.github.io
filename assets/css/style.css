@@ -221,3 +221,16 @@ strong{
   background: rgba(235,87,87,.06);
   border-radius: 12px;
 }
+
+/* ===== Énfasis tipográfico ===== */
+strong{
+  color: var(--accent-amber);
+  font-weight: 650;
+}
+
+em{
+  color: var(--accent-amber);
+  font-style: italic;
+  font-weight: 400;
+  opacity: 0.9;
+}
