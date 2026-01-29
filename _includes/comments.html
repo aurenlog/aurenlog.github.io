@@ -1,0 +1,17 @@
+{% if page.comments_url %}
+<hr>
+
+<div class="comments-cta">
+  <p class="comments-question">
+    ¿Comentarios, correcciones o experiencias?
+  </p>
+
+  <p class="comments-action">
+    Abrí un hilo para discutir este artículo en
+    <a href="{{ page.comments_url }}" target="_blank" rel="noopener">
+      GitHub
+    </a>
+  </p>
+</div>
+
+{% endif %}

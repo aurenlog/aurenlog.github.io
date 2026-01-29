@@ -1,0 +1,11 @@
+title: "Auren₿log"
+description: "Bitcoin, con criterio y sin ruido"
+markdown: kramdown
+permalink: /:categories/:title/
+url: "https://aurenlog.github.io"
+lang: es
+timezone: Europe/Madrid
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
